@@ -1,7 +1,7 @@
 
 # My super CV
 
-! [my-photo] (https://raw.githubusercontent.com/Citywidek1lla/rsschool-cv/gh-pages/my-photo.JPG)
+[my-photo] (https://raw.githubusercontent.com/Citywidek1lla/rsschool-cv/gh-pages/my-photo.JPG)
 
 # Oleksii Kuryliuk
 
