@@ -1,7 +1,7 @@
 
 # My super CV
 
-![My-photo](img/photo.jpg)
+![My-photo](img/photo.JPG)
 
 # Oleksii Kuryliuk
 
