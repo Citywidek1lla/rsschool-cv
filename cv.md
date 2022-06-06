@@ -29,7 +29,7 @@ Hello, my name is Oleksii, I'm 19 years old and I'm a student of Law University 
 function multiply(a, b){
  return a * b
 }
-
+```
 ## *Work experience*
 * I have no experience in the IT. 
 
