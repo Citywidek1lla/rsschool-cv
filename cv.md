@@ -1,7 +1,7 @@
 
 # My super CV
 
-![my-photo] (https://github.com/Citywidek1lla/rsschool-cv/blob/f954e8f140620ae77b3b349454e08584aa7aade6/my-photo.JPG)
+![my-photo] (https://raw.githubusercontent.com/Citywidek1lla/rsschool-cv/f954e8f140620ae77b3b349454e08584aa7aade6/my-photo.JPG)
 
 # Oleksii Kuryliuk
 
