@@ -25,6 +25,7 @@ Hello, my name is Oleksii, I'm 19 years old and I'm a student of Law University 
 * started learning Git & Markdown
 
 ## *Code example*
+```
 function multiply(a, b){
  return a * b
 }
