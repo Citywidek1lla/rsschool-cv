@@ -1,21 +1,26 @@
+* {
+    font-family: "Montserrat";
+    box-sizing: border-box;
+}
+
 .body {
-    font-family: 'Montserrat',
-    sans-serif;
     background-color: #f5f7fa;
+    width: auto;
+    margin: auto;
 }
 
 /* main styles */
 
 .main {
-display: flex;
-flex-direction: row-reverse;
-width: 1200px;
-margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 .main-content {
     background-color: #FFFFFF;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     padding: 105px 90px;
 }
 
@@ -26,35 +31,74 @@ margin: 0 auto;
 }
 
 .about-position {
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
 }
 
 .about-name {
-font-style: normal;
-font-weight: 700;
-font-size: 45px;
-line-height: 55px;
-margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 25px;
 }
 
 .about-description {
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 400px;
+}
+
+/* projects styles */
+
+.projects {
+    margin-bottom: 50px;
 }
 
 .title {
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 27px;
-margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.projects-list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.project-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.project,
+.project-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    ;
+}
+
+.project-link {
+    margin-left: 10px;
+}
+
+.project-bracket {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 /* work styles */
@@ -68,9 +112,47 @@ margin-bottom: 10px;
     margin-bottom: 10px;
 }
 
+.organization {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+
+.period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+
+.line {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000;
+}
+
+.work-list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.work-list-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
 /* Education styles */
 
-.education-title{
+.education-title {
     margin-top: 50px;
 }
 
@@ -79,7 +161,7 @@ margin-bottom: 10px;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-    color: #000000;  
+    color: #000000;
     margin-top: 5px;
 }
 
@@ -91,17 +173,14 @@ margin-bottom: 10px;
     color: #FB6D3A;
     margin-bottom: 5px;
 }
-.english-level {
-  margin-top: 50px;
-}
 
 /* sidebar styles */
 
-.sidebar{
-background-color: #1E2939;
-padding-top: 40px;
-padding-bottom: 500px;
-width: 370px;
+.sidebar {
+    background-color: #1E2939;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    width: 370px;
 }
 
 .photo {
@@ -109,8 +188,9 @@ width: 370px;
     margin-bottom: 50px;
 }
 
-.contacts, 
-.tech-skills,.soft-skills {
+.contacts,
+.tech-skills,
+.soft-skills {
     margin-left: 40px;
 }
 
@@ -122,7 +202,7 @@ width: 370px;
     margin-bottom: 45px;
 }
 
-.sidebar-title{
+.sidebar-title {
     color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
@@ -177,9 +257,42 @@ width: 370px;
 }
 
 .soft-skills-text {
-color: #FFFFFF;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: gray;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 25px;
+
+}
+.footer img {
+    height: 60px;
+}
+.footer span{
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+}
+.github-link{
+    text-decoration: none;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 5px;
+    border-radius: 6px;
+    transition: .2s ease-in-out;
+}
+.github-link:hover{
+    background-color: #fff;
+    color: #000;
 }
